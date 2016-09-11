@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="2" failed="0" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[enter 'admin' in user name :   enter :   ID_username : admin]]>
+    </line>
+    <line>
+      <![CDATA[enter 'manager in password :   enter :   NAME_pwd : manager]]>
+    </line>
+    <line>
+      <![CDATA[click on login button :   Click :   XPATH_//*[@id='loginButton'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Calender Button :   Click :   ClassName_x-btn-center : ]]>
+    </line>
+    <line>
+      <![CDATA[enter 'admin' in user name :   enter :   ID_username : admin]]>
+    </line>
+    <line>
+      <![CDATA[enter 'manager in password :   enter :   NAME_pwd : manager]]>
+    </line>
+    <line>
+      <![CDATA[click on login button :   Click :   XPATH_//*[@id='loginButton'] : ]]>
+    </line>
+    <line>
+      <![CDATA[Enter Value in Search text Filed :   Enter :   ID_taskSearchControl_field : Nice]]>
+    </line>
+    <line>
+      <![CDATA[click on Logout Link :   Click :   LinkText_Logout : ]]>
+    </line>
+    <line>
+      <![CDATA[Click on Calender Button :   Click :   ClassName_x-btn-center : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :    : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :    : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   tagName : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   PartialLinkText : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   CssSelector : ]]>
+    </line>
+    <line>
+      <![CDATA[Enter Value in Search text Filed :   Enter :   ID_taskSearchControl_field : Nice]]>
+    </line>
+    <line>
+      <![CDATA[click on Logout Link :   Click :   LinkText_Logout : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :    : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :    : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   tagName : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   PartialLinkText : ]]>
+    </line>
+    <line>
+      <![CDATA[ :    :   CssSelector : ]]>
+    </line>
+    <line>
+      <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+    </line>
+    <line>
+      <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="31433" started-at="2016-09-11T21:41:26Z" finished-at="2016-09-11T21:41:57Z">
+    <groups>
+    </groups>
+    <test name="ChromeTest" duration-ms="29660" started-at="2016-09-11T21:41:26Z" finished-at="2016-09-11T21:41:55Z">
+      <class name="com.company.pack.MainScripts.Delta">
+        <test-method status="PASS" signature="InitFramework()[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="InitFramework" is-config="true" duration-ms="128" started-at="2016-09-12T03:11:26Z" finished-at="2016-09-12T03:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitFramework -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="AppLaunch" is-config="true" duration-ms="3504" started-at="2016-09-12T03:11:27Z" finished-at="2016-09-12T03:11:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.pack.MainScripts.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="MultipleLoginActitime" duration-ms="7362" started-at="2016-09-12T03:11:30Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:11:37Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario_VariousLocators]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter 'admin' in user name :   enter :   ID_username : admin]]>
+            </line>
+            <line>
+              <![CDATA[enter 'manager in password :   enter :   NAME_pwd : manager]]>
+            </line>
+            <line>
+              <![CDATA[click on login button :   Click :   XPATH_//*[@id='loginButton'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Calender Button :   Click :   ClassName_x-btn-center : ]]>
+            </line>
+            <line>
+              <![CDATA[Enter Value in Search text Filed :   Enter :   ID_taskSearchControl_field : Nice]]>
+            </line>
+            <line>
+              <![CDATA[click on Logout Link :   Click :   LinkText_Logout : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :    : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :    : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   tagName : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   PartialLinkText : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   CssSelector : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="quitApp" is-config="true" duration-ms="7323" started-at="2016-09-12T03:11:37Z" finished-at="2016-09-12T03:11:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SUCCESS method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2] output=enter 'admin' in user name :   enter :   ID_username : admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="AppLaunch" is-config="true" duration-ms="3162" started-at="2016-09-12T03:11:45Z" finished-at="2016-09-12T03:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "ChromeTest" verbose:1[parameters:browser=>Chrome][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.pack.MainScripts.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="SKIP" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="MultipleLoginActitime" duration-ms="3" started-at="2016-09-12T03:11:48Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:11:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario_VariousLocators]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this scenario]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this scenario
+	at com.company.pack.MainScripts.Delta.MultipleLoginActitime(Delta.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="quitApp" is-config="true" duration-ms="7332" started-at="2016-09-12T03:11:48Z" finished-at="2016-09-12T03:11:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SKIP method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFramework()[pri:0, instance:com.company.pack.MainScripts.Delta@68be2bc2]" name="endFramework" is-config="true" duration-ms="210" started-at="2016-09-12T03:11:55Z" finished-at="2016-09-12T03:11:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFramework -->
+      </class> <!-- com.company.pack.MainScripts.Delta -->
+    </test> <!-- ChromeTest -->
+    <test name="FirefoxTest" duration-ms="31433" started-at="2016-09-11T21:41:26Z" finished-at="2016-09-11T21:41:57Z">
+      <class name="com.company.pack.MainScripts.Delta">
+        <test-method status="PASS" signature="InitFramework()[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="InitFramework" is-config="true" duration-ms="128" started-at="2016-09-12T03:11:26Z" finished-at="2016-09-12T03:11:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InitFramework -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="6388" started-at="2016-09-12T03:11:26Z" finished-at="2016-09-12T03:11:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FirefoxTest" verbose:1[parameters:browser=>Firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.pack.MainScripts.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="PASS" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="8509" started-at="2016-09-12T03:11:33Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:11:41Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario_VariousLocators]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[enter 'admin' in user name :   enter :   ID_username : admin]]>
+            </line>
+            <line>
+              <![CDATA[enter 'manager in password :   enter :   NAME_pwd : manager]]>
+            </line>
+            <line>
+              <![CDATA[click on login button :   Click :   XPATH_//*[@id='loginButton'] : ]]>
+            </line>
+            <line>
+              <![CDATA[Click on Calender Button :   Click :   ClassName_x-btn-center : ]]>
+            </line>
+            <line>
+              <![CDATA[Enter Value in Search text Filed :   Enter :   ID_taskSearchControl_field : Nice]]>
+            </line>
+            <line>
+              <![CDATA[click on Logout Link :   Click :   LinkText_Logout : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :    : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :    : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   tagName : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   PartialLinkText : ]]>
+            </line>
+            <line>
+              <![CDATA[ :    :   CssSelector : ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5047" started-at="2016-09-12T03:11:41Z" finished-at="2016-09-12T03:11:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SUCCESS method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815] output=enter 'admin' in user name :   enter :   ID_username : admin]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="AppLaunch(org.testng.xml.XmlTest)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="AppLaunch" is-config="true" duration-ms="5710" started-at="2016-09-12T03:11:46Z" finished-at="2016-09-12T03:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Test: "FirefoxTest" verbose:1[parameters:browser=>Firefox][metagroups:] [included: ][excluded: ]  classes:[XmlClass class=com.company.pack.MainScripts.Delta]  packages:] ]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[http://localhost:8080/login.do  :   TimeOut is  :  55]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AppLaunch -->
+        <test-method status="SKIP" signature="MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="MultipleLoginActitime" duration-ms="1" started-at="2016-09-12T03:11:52Z" data-provider="getMultipleScenarios" finished-at="2016-09-12T03:11:52Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[LoginScenario_VariousLocators]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Skipping this scenario]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Skipping this scenario
+	at com.company.pack.MainScripts.Delta.MultipleLoginActitime(Delta.java:176)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:85)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:639)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:816)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1124)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:108)
+	at org.testng.TestRunner.privateRun(TestRunner.java:774)
+	at org.testng.TestRunner.run(TestRunner.java:624)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:359)
+	at org.testng.SuiteRunner.access$000(SuiteRunner.java:39)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:393)
+	at org.testng.internal.thread.ThreadUtil$2.call(ThreadUtil.java:64)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MultipleLoginActitime -->
+        <test-method status="PASS" signature="quitApp(org.testng.ITestResult)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="quitApp" is-config="true" duration-ms="5018" started-at="2016-09-12T03:11:52Z" finished-at="2016-09-12T03:11:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=MultipleLoginActitime status=SKIP method=Delta.MultipleLoginActitime(java.lang.String, java.lang.String)[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitApp -->
+        <test-method status="PASS" signature="endFramework()[pri:0, instance:com.company.pack.MainScripts.Delta@6cc4c815]" name="endFramework" is-config="true" duration-ms="37" started-at="2016-09-12T03:11:57Z" finished-at="2016-09-12T03:11:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endFramework -->
+      </class> <!-- com.company.pack.MainScripts.Delta -->
+    </test> <!-- FirefoxTest -->
+  </suite> <!-- Suite -->
+</testng-results>
